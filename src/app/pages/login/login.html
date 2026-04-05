@@ -1,0 +1,9 @@
+<div style="text-align:center; margin-top:100px">
+    <h2>Login</h2>
+
+    <button (click)="login()">Entrar com Keycloak</button>
+
+    <p *ngIf="error()" style="color:red">
+        Falha no login
+    </p>
+</div>
